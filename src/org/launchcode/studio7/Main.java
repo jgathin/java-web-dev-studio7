@@ -26,12 +26,12 @@ public class Main {
 
         // TODO: Call each CD and DVD method to verify that they work as expected.
 
-        myDvd.spinDisc();
-        myCd.spinDisc();
-        myFloppy.spinDisc();
-        myLP.spinDisc();
-        myWheel.turn(myWheel.type);
-        myFrisbee.turn(myFrisbee.type);
+//        myDvd.spinDisc();
+//        myCd.spinDisc();
+//        myFloppy.spinDisc();
+//        myLP.spinDisc();
+//        myWheel.turn(myWheel.type);
+//        myFrisbee.turn(myFrisbee.type);
 
         System.out.println("\n*** The Shapes of our devices ***\n");
         for(BaseDisc device : devices) {
