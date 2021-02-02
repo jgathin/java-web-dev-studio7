@@ -2,8 +2,8 @@ package org.launchcode.studio7;
 
 public class DVD extends BaseDisc implements OpticalDisc {
 
-    public DVD (String type) {
-        super(type);
+    public DVD (String type, String shape) {
+        super(type, shape);
     }
 
     @Override

@@ -1,8 +1,8 @@
 package org.launchcode.studio7;
 
 public class CD extends BaseDisc implements OpticalDisc {
-    public CD (String type) {
-        super(type);
+    public CD (String type, String shape) {
+        super(type, shape);
     }
 
 

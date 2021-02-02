@@ -1,8 +1,8 @@
 package org.launchcode.studio7;
 
 public class LPs extends BaseDisc implements OpticalDisc {
-    public LPs (String type) {
-        super(type);
+    public LPs (String type, String shape) {
+        super(type, shape);
     }
 
     @Override

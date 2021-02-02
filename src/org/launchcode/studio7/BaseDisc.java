@@ -4,25 +4,29 @@ public abstract class BaseDisc  {
 
 
     String type;
+    String shape;
 
-public BaseDisc (String type) {
+public BaseDisc (String type, String shape) {
     this.type = type;
+    this.shape = shape;
 }
 
-String shape = "round";
 
 
+    public void spinDisc(){
+
+    }
 
 public void turn(String object) {
     System.out.println("The " + object + " is moving.");
 }
 
-public String objtype(String type) {
-    return this.type;
+//public String objtype(String type) {
+//    return this.type;
 }
 
 
 
 
 
-}
+
