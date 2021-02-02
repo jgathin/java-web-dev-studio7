@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="525a1ed1-d105-4b47-8b2b-059b1e21eee6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/java-web-dev-studio7/org/launchcode/studio7/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-web-dev-studio7/org/launchcode/studio7/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/launchcode/studio7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/studio7/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

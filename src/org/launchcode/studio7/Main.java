@@ -33,7 +33,7 @@ public class Main {
 //        myWheel.turn(myWheel.type);
 //        myFrisbee.turn(myFrisbee.type);
 
-        System.out.println("\n*** The Shapes of our devices ***\n");
+        System.out.println("\n*** The Shapes of My Devices ***\n");
         for(BaseDisc device : devices) {
             System.out.println("*****");
 
