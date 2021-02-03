@@ -33,16 +33,24 @@ public class Main {
 //        myWheel.turn(myWheel.type);
 //        myFrisbee.turn(myFrisbee.type);
 
-        System.out.println("\n*** The Shapes of My Devices ***\n");
+        System.out.println("\n*** The Details of My Devices ***\n");
         for(BaseDisc device : devices) {
             System.out.println("*****");
+
+            System.out.println("Device Type: " +device.type);
 
             if(device.type.equals("wheel") || (device.type.equals("frisby"))) {
                 device.turn(device.type);
             } else {
                 device.spinDisc();
             }
-            System.out.println("The shape of my " +device.type +" is "  + device.shape +".");
+            System.out.println("Device Shape: "  + device.shape);
+
+            if(device.type.equals("wheel") || (device.type.equals("frisby"))) {
+                System.out.println("Capacity: Not Applicable...");
+            } else {
+                System.out.println("Capacity: " + device.returnCapacity() + "MB");
+            }
             System.out.println("*****\n");
 
         }

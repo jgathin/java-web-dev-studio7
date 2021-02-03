@@ -1,9 +1,13 @@
 package org.launchcode.studio7;
 
 public class CD extends BaseDisc implements OpticalDisc {
+    private double capacity = 700;
+
     public CD (String type, String shape) {
         super(type, shape);
     }
+
+
 
 
     @Override
@@ -11,6 +15,11 @@ public class CD extends BaseDisc implements OpticalDisc {
 
         System.out.println("A CD spins at a rate of 200 - 500 rpm");
 
+    }
+
+    @Override
+    public double returnCapacity() {
+        return this.capacity;
     }
 
     // TODO: Implement your custom interface.

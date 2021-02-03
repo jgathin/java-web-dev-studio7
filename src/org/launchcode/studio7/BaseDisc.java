@@ -5,16 +5,22 @@ public abstract class BaseDisc  {
 
     String type;
     String shape;
+    double capacity;
 
 public BaseDisc (String type, String shape) {
     this.type = type;
     this.shape = shape;
+    //this.capacity
 }
 
 
 
     public void spinDisc(){
 
+    }
+
+    public double returnCapacity() {
+    return this.capacity;
     }
 
 public void turn(String object) {

@@ -2,6 +2,8 @@ package org.launchcode.studio7;
 
 public class DVD extends BaseDisc implements OpticalDisc {
 
+    private double capacity = 8500;
+
     public DVD (String type, String shape) {
         super(type, shape);
     }
@@ -11,6 +13,11 @@ public class DVD extends BaseDisc implements OpticalDisc {
 
         System.out.println("A DVD spins at a rate of 570 - 1600 rpm");
 
+    }
+
+    @Override
+    public double returnCapacity() {
+        return this.capacity;
     }
     // TODO: Implement your custom interface.
 
